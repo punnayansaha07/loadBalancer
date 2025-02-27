@@ -3,10 +3,6 @@
 ## Overview
 This project is a **custom Load Balancer** implemented in **Go**, which efficiently distributes incoming traffic among multiple **Flask-based** backend servers. The system ensures high availability and optimized request distribution using a **Round Robin** load balancing algorithm.
 
-## FLOW DIAGRAM
-```sh
-https://whimsical.com/faq-LCSchc4bGw2oi8idHQjiFc
-```
 ## Features
 - **Round Robin Load Balancing**: Requests are distributed evenly across available backend servers.
 - **Health Check Mechanism**: Periodic pings ensure only healthy servers receive traffic.
